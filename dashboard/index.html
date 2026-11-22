@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Radar: pre-token protocols ranked by implied value</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<a class="skip" href="#app">Skip to the board</a>
+<header class="top">
+  <div class="top-inner">
+    <div>
+      <h1>Token Radar</h1>
+      <p class="tagline">Every protocol that records no token yet, ranked by what its token would be worth.</p>
+    </div>
+    <div class="stats" id="stats" aria-label="Board statistics"></div>
+  </div>
+  <nav class="tabs" id="tabs" aria-label="Views"></nav>
+</header>
+<main id="app" tabindex="-1" aria-busy="true"></main>
+<footer class="foot">
+  <p>Values are this radar's own claim, worked out from the sealed snapshot alone — not investment advice, and not a prediction that a token will be issued. A protocol is shown as recording no token when its DefiLlama record carries none; that record is not proof it has none.</p>
+  <p id="srcnote"></p>
+</footer>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
